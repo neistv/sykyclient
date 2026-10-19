@@ -1,0 +1,12 @@
+{
+  "providers": [
+    { "type": "bitmap", "file": "syky:tiers/axe.png",     "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/mace.png",    "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/nethop.png",  "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/pot.png",     "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/smp.png",     "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/sword.png",   "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/uhc.png",     "ascent": 8, "height": 8, "chars": [""] },
+    { "type": "bitmap", "file": "syky:tiers/vanilla.png", "ascent": 8, "height": 8, "chars": [""] }
+  ]
+}

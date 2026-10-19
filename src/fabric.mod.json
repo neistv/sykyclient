@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "syky",
+  "version": "0.1.8-alpha",
+  "name": "syky client",
+  "description": "Best QoL utility client for PvP & survival.",
+  "authors": [
+    "cloh1r"
+  ],
+  "contact": {
+    "homepage": "https://sykyclient.com",
+    "email": "support@sykyclient.com"
+  },
+  "license": "LicenseRef-syky-proprietary",
+  "icon": "assets/syky/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "cc.syky.update.UpdateBootWatch"
+    ],
+    "client": [
+      "cc.syky.Syky"
+    ]
+  },
+  "mixins": [
+    "syky.mixins.json"
+  ],
+  "accessWidener": "syky.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/Gz3rZfQJvv"
+      }
+    },
+    "sykyopt:entity_extract": {
+      "contract": 1,
+      "worker_safe_mixins": [
+        "cc.syky.mixin.entity.ItemEntityRendererMixin",
+        "cc.syky.mixin.entity.LivingEntityRendererMixin",
+        "cc.syky.mixin.item.ShieldModelRendererMixin",
+        "cc.syky.mixin.player.AbstractClientPlayerSkinMixin",
+        "cc.syky.mixin.player.PlayerDisplayNameMixin",
+        "cc.syky.mixin.player.PlayerEntityRendererMixin",
+        "cc.syky.mixin.player.PlayerListEntrySkinMixin"
+      ],
+      "state_fields": [
+        "cc.syky.mixin.entity.ItemEntityRenderStateMixin#*",
+        "cc.syky.mixin.entity.LivingEntityRenderStateMixin#*",
+        "cc.syky.mixin.player.PlayerEntityRenderStateMixin#*"
+      ]
+    },
+    "sykyopt:render_hooks": {
+      "contract": 1,
+      "passive_mixins": [
+        "cc.syky.mixin.accessor.AtlasLoaderAccessor",
+        "cc.syky.mixin.accessor.BlockItemInvoker",
+        "cc.syky.mixin.accessor.BlockModelsAccessor",
+        "cc.syky.mixin.accessor.BufferBuilderAccessor",
+        "cc.syky.mixin.accessor.ChatHudAccessor",
+        "cc.syky.mixin.accessor.ClientInteractionBreakAccessor",
+        "cc.syky.mixin.accessor.DrawContextInvoker",
+        "cc.syky.mixin.accessor.EntityTrackedPositionAccessor",
+        "cc.syky.mixin.accessor.EntryListWidgetInvoker",
+        "cc.syky.mixin.accessor.GameRendererAccessor",
+        "cc.syky.mixin.accessor.HandledScreenAccessor",
+        "cc.syky.mixin.accessor.ItemLayerRenderStateAccessor",
+        "cc.syky.mixin.accessor.ItemRenderStateAccessor",
+        "cc.syky.mixin.accessor.MinecraftAccessor",
+        "cc.syky.mixin.accessor.ProjectionMatrix3Accessor",
+        "cc.syky.mixin.accessor.RealmsAvailabilityAccessor",
+        "cc.syky.mixin.accessor.RealmsClientAccessor",
+        "cc.syky.mixin.accessor.SpriteAtlasTextureAccessor",
+        "cc.syky.mixin.accessor.WindowInvoker"
+      ],
+      "gated_mixins": [
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#enchantGlint()",
+          "mixins": [
+            "cc.syky.mixin.item.RenderLayerGlintMixin",
+            "cc.syky.mixin.item.TextureTransformGlintMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#itemPhysic()",
+          "mixins": [
+            "cc.syky.mixin.entity.ItemEntityRendererMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#armorHurtTint()",
+          "mixins": [
+            "cc.syky.mixin.entity.EquipmentRendererMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#shieldLook()",
+          "mixins": [
+            "cc.syky.mixin.item.ShieldModelRendererMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#hideArmor()",
+          "mixins": [
+            "cc.syky.mixin.entity.ArmorFeatureRendererMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#particleFilter()",
+          "mixins": [
+            "cc.syky.mixin.world.ParticleManagerFilterMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#hideEntityFire()",
+          "mixins": [
+            "cc.syky.mixin.entity.EntityRenderManagerFireMixin"
+          ]
+        },
+        {
+          "while": "cc.syky.compat.RenderHookSwitches#noEntityShadow()",
+          "mixins": [
+            "cc.syky.mixin.entity.EntityRenderManagerShadowMixin"
+          ]
+        }
+      ]
+    },
+    "syky:build": "sk-a763b3bd",
+    "syky:issued": "2026-10-16"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/jlayer-1.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/jna-5.17.0.jar"
+    },
+    {
+      "file": "META-INF/jars/jna-platform-5.17.0.jar"
+    },
+    {
+      "file": "META-INF/jars/oshi-core-6.8.2.jar"
+    },
+    {
+      "file": "META-INF/jars/syky-optimization-0.1.0.jar"
+    }
+  ]
+}

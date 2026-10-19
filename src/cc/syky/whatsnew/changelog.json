@@ -1,0 +1,351 @@
+{
+  "schema": 1,
+  "headingOrder": [
+    "New",
+    "Improved",
+    "Reworked",
+    "Fixed"
+  ],
+  "_comment": "Newest release FIRST. File order is what 'newer' means - nothing parses the version strings. On every release: prepend one entry whose 'version' is exactly the new fabric.mod.json version, or the window stays silent. 'label' is the display name and can be renamed freely. Groups are authored per release - omit a heading rather than shipping it empty. Every release in the shown range is folded into ONE set of headings, printed in headingOrder above; a heading not listed there lands after the ones that are.",
+  "entries": [
+    {
+      "version": "0.1.8-alpha",
+      "label": "Alpha 0.1.8",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Our own built-in game optimization. In short: a deep optimization and rework of how players, entities, particles, name tags, holograms, the vanilla HUD, chunks and much more are rendered. It fixes micro-freezes during PvP and reduces input lag. The gain can be noticeable where there are many players. This is the first test of the optimization - if you run into an error, visual artifacts or anything else, type .syky opt off in chat to turn it off.",
+            "Custom Crosshair - a new Cooldown bar shows how long until your next hit is ready.",
+            "New No Shading module - turns off shading on blocks and entities.",
+            "New Loot Beams module - raises a column of light over every dropped item, colored by its rarity, so you can spot loot from far away.",
+            "Block Overlay - a new Brightness style.",
+            "Target Marker - a new Scan style.",
+            "Chat Ping - the background of a message line where you were mentioned is now highlighted.",
+            "Modules a server does not allow, such as Freelook on Hypixel, now switch off on that server by themselves and come back on when you leave."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "HUD elements - the snapping system for pills has been reworked. It used to be tied to the top left corner, but now you can freely move pills anywhere and snap them to each other like puzzle pieces.",
+            "The settings popup of a HUD element now shows the element's icon in the header, left of its name.",
+            "Music Player HUD element - two new designs to choose from; you can now bind a hotkey to quickly skip a track or pause (thanks to yunikey for the idea); the soundwave now moves to the beat of the music instead of at random.",
+            "Motion Blur - fast turns now look smoother and silkier. There is less noise, the picture is cleaner and fps went up. Added blur for the items in your hands (especially noticeable with reworked animation mods such as 'Hold My Items'). Also fixed blur on your character in F5, on boats while sailing, while riding a horse and so on. Added a new Fast quality mode.",
+            "The ClickGUI now blurs the background behind the buttons at the top.",
+            "Active Potions HUD element - you can now hide the effects you choose.",
+            "Removals - now also removes the dust from breaking blocks and explosion debris, and can hide pop-ups (advancement, recipe and tutorial toasts) and arrows stuck in players.",
+            "Some modules have been renamed."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Active Potions HUD element - fixed the missing smooth appearance animation when many new effects appear at once.",
+            "Fixed rare game crashes caused by the media player, plus a few other bugs."
+          ]
+        }
+      ],
+      "modules": [
+        "noshading",
+        "lootbeams"
+      ]
+    },
+    {
+      "version": "0.1.7-alpha",
+      "label": "Alpha 0.1.7",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "New Socials tab - send friend requests and chat with your friends in the built-in messenger.",
+            "Sky - you can now upload your own picture for the skybox.",
+            "Health Indicator - a new setting puts golden hearts next to the normal ones: golden hearts start filling the empty slots of the normal hearts you have lost.",
+            "New Durability Alert HUD element - warns you separately and shows how much durability is left on your armor, elytra or the item in your hand.",
+            "New Custom Hearts module - set the color of the hearts above the hotbar and turn off some of their effects, such as Wither hearts, Frozen hearts and more.",
+            "Coords HUD element - a new setting shows your Nether coordinates while you are in the Overworld, and the other way around. You can also copy the biome name.",
+            "New In-game Clock HUD element - shows the in-game time and how many minutes or seconds are left until you can sleep in a bed.",
+            "New Item Pickups HUD element - shows the items you have just picked up into your inventory.",
+            "New Inventory Background module - easily put your own photo or GIF behind your inventory, no resource pack needed.",
+            "FPS HUD element - you can now set how often the frame counter updates."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "PvP Leave Confirm now also works with the /hub command.",
+            "Better client performance."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Improved and fixed the smooth animations of Shield Timer and Expiring Potions.",
+            "Fixed some rough edges and bugs in scroll areas.",
+            "And many other small fixes."
+          ]
+        }
+      ],
+      "modules": [
+        "customhearts",
+        "inventorybackground"
+      ]
+    },
+    {
+      "version": "0.1.6-alpha",
+      "label": "Alpha 0.1.6",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Light Overlay - shows the dark spots where hostile mobs can spawn and suggests where to place torches to light them up.",
+            "Chunk Borders - outlines the borders of the chunk you are standing in.",
+            "Chat Heads - shows each player's head next to their name in chat.",
+            "Chat Ping - lets you know when someone mentions your name in chat. If the game is minimized, you get a Windows notification.",
+            "Infinite Chat History - the chat keeps far more than the usual 100 messages.",
+            "Effect Alerts - a vignette around the edges of the screen for the effects and states that matter: low health, your Strength running out, Slowness and more.",
+            "PvP Leave Confirm - if you try to leave a server while PvP mode is active, a confirmation dialog appears first.",
+            "Health Advantage - during PvP, a ring under your opponent shows whether you have more or less health than them. Turn on Shrink with health and the ring also gets shorter as their health drops.",
+            "Shield Timer HUD element - shows how many seconds are left until a broken shield is ready again, yours or your opponent's.",
+            "Interface scale in Client settings - make the ClickGUI as big or as small as you like.",
+            "Theme in Client settings - pick your own ClickGUI colors.",
+            "Right-click a module row to open a new menu, including a Reset settings button that puts that module's settings back to default.",
+            "After an update, the modules added since the version you had before are marked NEW in the ClickGUI, so they are easy to find.",
+            "Custom Hitbox - new Shrink sides setting. It makes the hitbox look smaller, so you push yourself to aim more precisely and your aim gets better over time. A hit that misses the small box but lands on the real one still counts on the server, but with Hide edge hits on its hit effects are hidden, so your brain does not count it as a hit."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "Discord Rich Presence has a new look.",
+            "Streamer Mode - closed several leaks.",
+            "Block Overlay - new Hovered side only mode.",
+            "Slot Highlight - new Over item style next to Behind item.",
+            "Target HUD - new Win / Lose display that shows whether you are ahead of your opponent on health, and a new Compact style.",
+            "Hold the middle mouse button to scroll in menus and popups, vanilla screens included.",
+            "The ClickGUI search clears itself if the menu has not been opened for 3 minutes."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Fixed a build bug that signed everyone out after installing a client update.",
+            "Fixed translucent outlines stacking up where lines meet (Custom Hitbox, Block Overlay and others). Translucent outlines now look clean, with no darker layers at the joints.",
+            "Fixed Remember account not working in the Alt manager.",
+            "Block Overlay - fixed crooked lines at the corners, and it now hides with F1.",
+            "Config popup - fixed tooltip artifacts while dragging.",
+            "Plus many other small fixes."
+          ]
+        }
+      ],
+      "modules": [
+        "lightoverlay",
+        "chunkborders",
+        "chatheads",
+        "chatping",
+        "chathistory",
+        "effectalerts",
+        "pvpleaveconfirm",
+        "healthring",
+        "reconnectbutton"
+      ]
+    },
+    {
+      "version": "0.1.5-alpha",
+      "label": "Alpha 0.1.5",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Two new ClickGUI pages: Waypoints and Alt manager. Switch Minecraft accounts right in the game, offline or Microsoft, and the account you picked comes back the next time you start the game.",
+            "Bushy Leaves module - fuller, leafy treetops.",
+            "More items in Item Counter and Slot Highlight.",
+            "Set the size of the stack numbers in the Inventory HUD.",
+            "Your profile banner can be a picture."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "Better at telling when an opponent's shield has been broken.",
+            "Wet Surfaces looks more natural."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Block Overlay outlines no longer break at L-shaped corners.",
+            "The ClickGUI no longer shakes while the search animation plays."
+          ]
+        }
+      ],
+      "modules": [
+        "bushyleaves"
+      ]
+    },
+    {
+      "version": "0.1.4-alpha",
+      "label": "Alpha 0.1.4",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Sign in to a syky account from the ClickGUI's Account page — create one or log in, then finish in your browser. You stay signed in across restarts; the rail shows your syky name and the UID element your account number.",
+            "Your profile lives on the same page: banner, picture, and Overview and Settings tabs. Choose who sees your about, join date, time played and friend count — everyone, friends or only you.",
+            "Open another player's profile with .syky account profile <name>, and send them a friend request or accept theirs from there.",
+            "Other syky players carry a small syky mark in front of their name in the tab list and on nametags.",
+            "Third Person module — Minecraft's own F5 view, kept on: pick the side it opens from, and pull the camera in with the wheel. Freelook can now open from in front of you too.",
+            "Wet Surfaces module — the world just after rain: surfaces darken, puddles gather on level ground and mirror the world, Target Marker and particles included, and raindrops ring across everything wet.",
+            "Rain Drops module — rain lands on your camera, bends the world behind each drop, and runs down the glass in fits and starts, leaving a trail of beads.",
+            "Caps Fix module — a message typed with caps lock on goes out as a normal sentence, while acronyms, tags and nicknames are left alone.",
+            "Borderless Fullscreen module makes Alt-Tab to Discord or OBS instant, and Reconnect Button adds a button to the disconnect screen that joins the last server again.",
+            "Images element — put your own pictures and GIFs on screen: up to twelve, each moved, sized, rounded and faded on its own.",
+            "Three new HUD elements: Break Indicator shows how long the block you are mining still needs, Splash Accuracy how much of each splash potion that hit you landed, and Day Counter the world's day.",
+            "After an update, the main menu tells you what changed — this card, with a link to our Discord."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "The HUD, the open ClickGUI, Target Marker, particles, hitboxes and Color Correction all cost less per frame, and syky makes far less garbage, so the game hitches less.",
+            "The CPU and GPU readouts and the music card no longer run in the background while they are not on screen.",
+            "A new typeface for the HUD and the ClickGUI, with proper letter spacing and the Cyrillic letters the old one was missing. Text, lines and borders are sharper at every GUI scale.",
+            "HUD glass blurs only the world right behind each element, so nearby colours no longer bleed into its edges — the ClickGUI and its windows too. Surrounding colors in the ClickGUI settings brings the old look back.",
+            "HUD backgrounds get a Tint mode that colours the glass instead of covering it.",
+            "Bind a key to any HUD element — middle-click it in the editor or use its card's bind button — or remove it with the card's new trash button. The Hotkeys card picks which binds it lists in its own settings.",
+            "Item Counter counts arrows too, and the Inventory card hides itself while your inventory is empty.",
+            "The FPS element can add your frame time and 1% low, group thousands, and show a Fake FPS that still rises and falls with your real one.",
+            "Tier Tagger also reads qaztiers, Atiers, MyTiers and CISTiers. Pick the sites under Sources — a player ranked on several shows a tag for each.",
+            "ViewModel: Swap hands moves your main hand to the other side for everyone, like vanilla's Main Hand option; Symmetrical mirrors the off hand; and with chat open you can drag, turn and scale the held item with the mouse.",
+            "New options: Hide clouds in Sky, Portal overlay in Removals, Hide entity fire in Fire Overlay and Opacity in Fog Blur. Anti Leak now hides the clouds too, as their pattern can give away where you are.",
+            "FullBright fades the light in and out instead of switching it.",
+            "AspectRatio can stretch your hand along with the world, or leave it at its normal width.",
+            "Ctrl+F jumps to the ClickGUI's search, a cross clears it, and it lists only the best matches instead of half the list.",
+            "A long list of module settings now fades out under the card's header as you scroll, instead of being cut off.",
+            "Everything syky saves now lives in one syky folder in your game directory, with backups kept apart from your configs. The old folder is moved over on first start."
+          ]
+        },
+        {
+          "title": "Reworked",
+          "lines": [
+            "The ClickGUI is redesigned. Its pages are Visuals, Utilities and Advanced — Combat modules now sit under Visuals — with your account at the foot of the rail.",
+            "A module's settings open in a card you can drag off the panel, with its key bind in the header. Right-click a module to open it; dropdowns open beside the card.",
+            "Configs moved from their own page into a window on the config button: create, rename, duplicate, share or delete them, and one Auto-save switch for the whole client. With it off, a Save button shows up when something changed.",
+            "The HUD editor works like a design tool: select several elements with Shift-click, a box or Ctrl+A, move them together along smart guides (Ctrl moves freely), nudge with the arrows, undo with Ctrl+Z, and hold Alt to measure.",
+            "Color Grade is now Color Correction: exposure, white balance, highlights and shadows, a tone curve, split toning, vibrance and black-and-white, with ready-made looks to start from."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Updates now install on Windows accounts whose name is not in Latin letters.",
+            "Starting two clients from the same game folder no longer makes the updater roll back a working update and then refuse it.",
+            "With vanilla's Sneak or Sprint set to Toggle, holding the key while the ClickGUI is open no longer flips it on and off.",
+            "Particles' Only crits bursts only on your own real crits — not on a hit that did no damage, or a teammate's crit on the same target.",
+            "Custom Hitbox no longer breaks into screen-sized sheets under an Iris shaderpack.",
+            "Self Nametag hides your tag while you are invisible or someone is riding you, as vanilla does.",
+            "Item Physic rests items on the ground instead of a pixel above it.",
+            "Opening the ClickGUI for the first time no longer freezes the game for a moment.",
+            "Items on the Inventory and Item Counter cards no longer lose rows of pixels at small sizes.",
+            "The HUD no longer shows doubled rows and columns of pixels at window sizes the GUI scale does not divide evenly.",
+            "Dragging the panel or a HUD card moves smoothly at any refresh rate, and no longer jumps back when grabbed mid-motion.",
+            "On a Minecraft version it does not support, syky now stops with a clear message instead of crashing on load."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.1.3-alpha",
+      "label": "Alpha 0.1.3",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Boss Bar element. Move it, resize it, or hide the server's bar entirely.",
+            "Potions warn you before they run out, with a countdown you can put where you want it.",
+            "Toggle Sneak module - holds the crouch for you, and stands you back up when a screen opens.",
+            "A target's golden hearts now show under their health bar."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "The music card can be scrubbed: drag the bar to seek, and it shows where the jump will land before you let go.",
+            "Click a track title to copy it. Long titles roll instead of being cut short.",
+            "A long nickname on the target card dissolves instead of being clipped.",
+            "The colour picker warns you when Vibrancy is about to wash out the colour you picked.",
+            "Motion Blur has two quality modes: Optimized and Ultra."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "An upright Item Counter no longer drops a cell outside its own capsule.",
+            "The target card stops ending its exit animation as if it were your own name.",
+            "The media bridge no longer reports the wrong track position after a pause."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.1.2-alpha",
+      "label": "Alpha 0.1.2",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "Set a module's key straight from the panel - middle-click its row, press the key, done.",
+            "Command Fix sends the command you meant when you typed it in the wrong keyboard layout, and shows you the corrected line while you type.",
+            "The Hotkeys card lets you choose which binds it lists."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "Fresh client icon on the Discord presence."
+          ]
+        },
+        {
+          "title": "Fixed",
+          "lines": [
+            "Only left and right click close a popup by clicking past it.",
+            "Three defects in the bind panel, and the tooltip that sat over it."
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.1.1-alpha",
+      "label": "Alpha 0.1.1",
+      "groups": [
+        {
+          "title": "New",
+          "lines": [
+            "The client updates itself. New builds are downloaded, verified and swapped in on exit - and rolled back on their own if one fails to start.",
+            "Chat Reveal holds faded chat lines on screen without making you open the chat.",
+            "Chat Stack folds a repeated message into one counted line.",
+            "Item Physic lays dropped items flat on the ground.",
+            "Drop Guard locks a slot so you cannot throw away the thing you needed.",
+            "Combo counter."
+          ]
+        },
+        {
+          "title": "Reworked",
+          "lines": [
+            "The colour picker was rebuilt at its real size.",
+            "Every HUD element now answers to two named colours instead of one.",
+            "The module list stands on its own sheet, and the sidebar opened up."
+          ]
+        },
+        {
+          "title": "Improved",
+          "lines": [
+            "Scoreboard can be hidden behind a blur instead of switched off.",
+            "The block outline computes its edge instead of rasterising it, so it stays sharp at any distance.",
+            "syky's mark is on the loading screen."
+          ]
+        }
+      ]
+    }
+  ]
+}

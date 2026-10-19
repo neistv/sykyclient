@@ -1,0 +1,173 @@
+syky client — End User License Agreement
+Copyright (c) 2026 cloh1r. All rights reserved.
+
+This software is proprietary. It is distributed free of charge, but it is NOT
+free software and NOT open source. The copyright holder retains every right not
+expressly granted below.
+
+By downloading, installing, running or otherwise using syky ("the Software"),
+you accept this Agreement in full. If you do not accept it, do not download,
+install, run, copy or otherwise use the Software.
+
+
+1. GRANT OF LICENSE
+
+The copyright holder grants you a personal, non-exclusive, non-transferable,
+non-sublicensable, revocable, royalty-free license to install and run the
+Software for your own private use with Minecraft, on devices you own or control.
+
+That is the entire grant. No other right, title or interest is given, whether by
+implication, estoppel or otherwise.
+
+
+2. RESTRICTIONS
+
+You may NOT, in whole or in part, directly or indirectly, and may not permit or
+enable any other person to:
+
+  a) Redistribute, publish, upload, mirror, host, resell, rent, lend, share,
+     sublicense, transfer or otherwise make the Software — in whole or in part,
+     modified or unmodified, in source or compiled form — available to any other
+     person, to any group, or to the public, by any means now known or later
+     devised, whether or not for payment.
+
+  b) Decompile, disassemble, deobfuscate, reverse engineer, translate, or
+     otherwise attempt to derive, reconstruct or recover the source code,
+     internal structure, class or package layout, algorithms, data formats or
+     design of the Software, except to the minimum extent that such an act cannot
+     lawfully be prohibited in your jurisdiction and only after giving the
+     copyright holder prior written notice and an opportunity to provide the
+     required information.
+
+  c) Create derivative works based on the Software, or copy, port, adapt,
+     translate or incorporate any part of the Software — its source code, its
+     compiled bytecode, its assets, its names, its structure or its visual
+     design — into any other product, client, mod, library or project, whether
+     free or commercial, public or private, and whether or not obfuscation has
+     been removed from the part so used.
+
+  d) Remove, disable, obscure, alter, bypass or circumvent any copyright notice,
+     authorship attribution, licensing term, build identifier, watermark, name
+     obfuscation or other technological protection or identifying marking
+     contained in or applied to the Software. The obfuscation and build
+     identifiers applied to the Software are technological measures that control
+     access to and protect the copyright holder's rights in the Software; their
+     removal or circumvention is itself a breach of this Agreement and may be a
+     separate violation of applicable law.
+
+  e) Represent the Software, or anything derived from or based on it, as your own
+     work, or use its name, branding or identity in a way likely to suggest
+     association with or endorsement by the copyright holder.
+
+Each copy of the Software carries build identifiers and watermarks that associate
+it with the person it was issued to. Distributing, leaking or exposing your copy,
+or any source code or bytecode derived from it, is a breach of clause (a) and is
+directly attributable to you.
+
+
+3. OWNERSHIP
+
+The Software is licensed, not sold. All title, ownership and intellectual
+property rights in and to the Software — including its source code, compiled
+form, architecture, class and package structure, names, assets and visual
+design — are and remain the exclusive property of the copyright holder. Copyright
+subsists automatically from the moment of creation under the Berne Convention and
+applicable national law; no registration, deposit, notice or other formality is
+required for these rights to exist or to be enforced.
+
+Any source code, bytecode or other material recovered from, derived from or
+reconstructed out of the Software — including anything obtained by decompiling,
+deobfuscating or reverse engineering it, by whomever and however obtained —
+remains the copyright holder's work and a copy of the Software for the purposes
+of this Agreement and of copyright law. No such act creates any new or
+independent copyright in favour of the person performing it. Possessing, using,
+publishing or distributing such material without the copyright holder's written
+permission is copyright infringement, regardless of who first produced or leaked
+it and regardless of any changes, renaming or reformatting applied to it.
+
+
+4. THIRD-PARTY COMPONENTS
+
+The Software bundles the following third-party libraries as separate nested
+archives under META-INF/jars/. They are governed by their own licenses, NOT by
+this Agreement, and nothing in this Agreement restricts any right those licenses
+grant you in respect of those components:
+
+  - JLayer (javazoom:jlayer)          — GNU LGPL 2.1
+  - OSHI (com.github.oshi:oshi-core)  — MIT License
+  - JNA (net.java.dev.jna:jna)        — GNU LGPL 2.1 or Apache License 2.0
+  - JNA Platform (…:jna-platform)     — GNU LGPL 2.1 or Apache License 2.0
+
+Each is bundled unmodified and separately, so that the relinking rights granted
+by the LGPL remain exercisable. The Software also runs on Fabric Loader and
+Fabric API (Apache License 2.0), which it depends on but does not bundle.
+
+Minecraft is a trademark of Mojang AB. The Software is not affiliated with,
+endorsed by, or associated with Mojang AB or Microsoft.
+
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Use of the Software on any third-party server is at your own risk. The copyright
+holder is not responsible for any action taken against you by a server operator.
+
+
+6. REMEDIES AND ENFORCEMENT
+
+You acknowledge that the Software embodies valuable intellectual property, that
+any breach of section 2 or 3 would cause the copyright holder irreparable harm
+for which monetary damages alone would be an inadequate remedy, and that the
+copyright holder is therefore entitled to seek injunctive and other equitable
+relief — including an order to cease distribution and to remove infringing
+material — without the need to post a bond, in addition to any other remedy
+available at law or in equity.
+
+In the event of a breach the copyright holder is entitled to recover all damages
+permitted by law, including actual damages, any profits attributable to the
+breach, statutory damages where available, and the reasonable legal costs and
+fees of enforcement. The copyright holder's failure to enforce any term is not a
+waiver of that term or of any other term.
+
+
+7. TERMINATION
+
+This license terminates automatically and immediately, without notice, if you
+breach any term of it. On termination you must stop using the Software and
+permanently destroy all copies in your possession or control, including any
+source code or bytecode derived from it. Sections 2, 3, 5, 6, 8 and 9 survive
+termination. Termination does not limit any other remedy available to the
+copyright holder.
+
+
+8. GOVERNING LAW
+
+This Agreement is governed by and construed in accordance with the laws of
+Ukraine, without regard to its conflict-of-laws rules, and, as to copyright, by
+the international copyright treaties to which Ukraine is a party (including the
+Berne Convention). The courts having jurisdiction over the copyright holder's
+place of residence shall have jurisdiction over any dispute arising out of or in
+connection with this Agreement, without prejudice to the copyright holder's right
+to pursue infringement or seek relief in any other competent jurisdiction. The
+United Nations Convention on Contracts for the International Sale of Goods does
+not apply.
+
+
+9. GENERAL
+
+If any provision of this Agreement is held invalid or unenforceable, that
+provision shall be limited or severed to the minimum extent necessary and the
+remaining provisions shall remain in full force and effect. This Agreement is the
+entire agreement between you and the copyright holder regarding the Software and
+supersedes any prior understanding. The copyright holder may assign this
+Agreement; you may not. All rights not expressly granted in section 1 are
+reserved by the copyright holder.
+
+
+Contact for permissions and licensing enquiries: cloh1r

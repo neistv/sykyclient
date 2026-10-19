@@ -1,0 +1,84 @@
+package cc.syky.cloud;
+
+import cc.syky.ui.SignInSupport;
+
+public final class WhatSSupport {
+   public static final float v1 = 578.0F;
+   public static final float v2 = 741.0F;
+   public static final float v3 = 0.30104166F;
+   public static final float v4 = 0.86F;
+   public static final float v5 = 40.0F;
+   public static final int v6 = SignInSupport.v1(204);
+   public static final int v7 = 234881023;
+   public static final float v8 = 17.0F;
+   public static final float v9 = 14.0F;
+   public static final float v10 = 34.0F;
+   public static final float v11 = 62.0F;
+   public static final float v12 = 28.0F;
+   public static final String v13 = "syky";
+   public static final float v14 = 0.678223F;
+   public static final float v15 = 65.0F;
+   public static final float v16 = 44.0F;
+   public static final float v18 = 36.0F;
+   public static final float v19 = 115.0F;
+   public static final float v17 = 19.0F;
+   public static final float v20 = 16.0F;
+   public static final int v21 = -1275068417;
+   public static final String v22 = "arrow_right";
+   public static final float v24 = 1.4814814F;
+   public static final float v25 = 8.0F;
+   public static final float v26 = 9.0F;
+   public static final int v27 = -1;
+   public static final float v28 = 482.0F;
+   public static final float v29 = 20.0F;
+   public static final float v30 = 74.0F;
+   public static final float v32 = 25.0F;
+   public static final float v23 = 17.0F;
+   public static final float v33 = 14.0F;
+   public static final int v31 = -419430401;
+   public static final int v34 = -1;
+   public static final int v36 = -1;
+   public static final int v38 = -14606047;
+   public static final float v42 = 20.0F;
+   public static final float v43 = 18.0F;
+   public static final float v37 = 9.0F;
+   public static final float v48 = 12.0F;
+   public static final float v40 = 10.0F;
+   public static final float v44 = 0.45F;
+   public static final float v47 = 56.0F;
+   public static final float v49 = 56.0F;
+   public static final float v46 = 40.0F;
+   public static final float v51 = 60.0F;
+   public static final float v50 = 40.0F;
+   public static final float v60 = 44.0F;
+   public static final float v59 = 18.0F;
+   public static final float v53 = 16.0F;
+   public static final float v63 = 52.0F;
+   public static final float v64 = 42.0F;
+   public static final float v61 = 22.0F;
+   public static final int v66 = -1;
+   public static final float v68 = 15.0F;
+   public static final float v52 = 22.0F;
+   public static final float v75 = 16.0F;
+   public static final String v73 = "•";
+   public static final int v74 = -637534209;
+   public static final float v72 = 96.0F;
+   public static final float v80 = 4.5F;
+   public static final float v84 = 22.0F;
+   public static final float v94 = 90.0F;
+   public static final float v82 = 0.1F;
+   public static final float v99 = 64.0F;
+   public static final float v120 = 0.1F;
+   public static final float v88 = 140.0F;
+   public static final float v103 = 160.0F;
+   public static final long v101 = 380L;
+   public static final String v96 = "whatsnew.heading";
+   public static final String v105 = "whatsnew.close";
+   public static final String v87 = "whatsnew.discord";
+   public static final String v85 = "What's new";
+   public static final String v119 = "Close";
+   public static final String v98 = "Discord";
+
+   private WhatSSupport() {
+   }
+}
