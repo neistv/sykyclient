@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue800": 9,
+        "\ue801": 2
+      }
+    }
+  ]
+}
